@@ -1,0 +1,75 @@
+﻿  Developpeur.cpp
+E:\C++\INF1015\tp3\Concepteur.hpp(12,7): error C2143: syntax error: missing ';' before '<'
+E:\C++\INF1015\tp3\Concepteur.hpp(12,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++\INF1015\tp3\Concepteur.hpp(12,23): error C2238: unexpected token(s) preceding ';'
+E:\C++\INF1015\tp3\Jeu.hpp(12,7): error C2143: syntax error: missing ';' before '<'
+E:\C++\INF1015\tp3\Jeu.hpp(12,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++\INF1015\tp3\Jeu.hpp(12,31): error C2238: unexpected token(s) preceding ';'
+E:\C++\INF1015\tp3\main.cpp(59,29): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(60,26): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(135,6): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(139,10): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(139,75): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(139,96): error C2672: 'std::make_unique': no matching overloaded function found
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3447,6): message : could be 'void std::make_unique(_Types &&...)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3441,41): message : or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(const size_t)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3436,41): message : or       'std::unique_ptr<_Ty,std::default_delete<_Ty>> std::make_unique(_Types &&...)'
+E:\C++\INF1015\tp3\main.cpp(140,38): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(140,16): error C2143: syntax error: missing ';' before ':'
+E:\C++\INF1015\tp3\main.cpp(140,2): error C2672: 'iter::range': no matching overloaded function found
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(22,28): message : could be 'iter::impl::Range<T> iter::range(T,T,T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(140,24): message : 'iter::impl::Range<T> iter::range(T,T,T) noexcept': expects 3 arguments - 1 provided
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(22): message : see declaration of 'iter::range'
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(20,28): message : or       'iter::impl::Range<T> iter::range(T,T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(140,24): message : 'iter::impl::Range<T> iter::range(T,T) noexcept': expects 2 arguments - 1 provided
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(20): message : see declaration of 'iter::range'
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(18,28): message : or       'iter::impl::Range<T> iter::range(T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(140,60): error C2143: syntax error: missing ';' before ')'
+E:\C++\INF1015\tp3\main.cpp(141,11): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(142,22): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(179,26): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\main.cpp(179,16): error C2143: syntax error: missing ';' before ':'
+E:\C++\INF1015\tp3\main.cpp(179,2): error C2672: 'iter::range': no matching overloaded function found
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(22,28): message : could be 'iter::impl::Range<T> iter::range(T,T,T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(179,18): message : 'iter::impl::Range<T> iter::range(T,T,T) noexcept': expects 3 arguments - 1 provided
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(22): message : see declaration of 'iter::range'
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(20,28): message : or       'iter::impl::Range<T> iter::range(T,T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(179,18): message : 'iter::impl::Range<T> iter::range(T,T) noexcept': expects 2 arguments - 1 provided
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(20): message : see declaration of 'iter::range'
+E:\C++\INF1015\tp3\include\cppitertools\range.hpp(18,28): message : or       'iter::impl::Range<T> iter::range(T) noexcept'
+E:\C++\INF1015\tp3\main.cpp(179,48): error C2143: syntax error: missing ';' before ')'
+E:\C++\INF1015\tp3\main.cpp(180,25): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+E:\C++\INF1015\tp3\Developpeur.cpp(42,21): error C2039: 'concepteurs': is not a member of 'Jeu'
+E:\C++\INF1015\tp3\Jeu.hpp(7): message : see declaration of 'Jeu'
+  main.cpp
+E:\C++\INF1015\tp3\Developpeur.hpp(13,19): error C2061: syntax error: identifier 'Liste'
+E:\C++\INF1015\tp3\Developpeur.hpp(19,31): error C2061: syntax error: identifier 'Liste'
+E:\C++\INF1015\tp3\Developpeur.hpp(21,25): error C2065: 'Liste': undeclared identifier
+E:\C++\INF1015\tp3\Developpeur.hpp(21,31): error C2065: 'Jeu': undeclared identifier
+E:\C++\INF1015\tp3\Developpeur.hpp(21,7): error C2974: 'std::pair': invalid template argument for '_Ty2', type expected
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(123): message : see declaration of 'std::pair'
+E:\C++\INF1015\tp3\Developpeur.hpp(21,34): error C2059: syntax error: '>'
+E:\C++\INF1015\tp3\Developpeur.hpp(21,50): error C2238: unexpected token(s) preceding ';'
+E:\C++\INF1015\tp3\Developpeur.hpp(14,45): error C2065: 'paireNomJeux_': undeclared identifier
+E:\C++\INF1015\tp3\Concepteur.hpp(12,7): error C2143: syntax error: missing ';' before '<'
+E:\C++\INF1015\tp3\Concepteur.hpp(12,7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++\INF1015\tp3\Concepteur.hpp(12,23): error C2238: unexpected token(s) preceding ';'
+E:\C++\INF1015\tp3\main.cpp(142,38): error C2039: 'jeuxConcus': is not a member of 'Concepteur'
+E:\C++\INF1015\tp3\Concepteur.hpp(7): message : see declaration of 'Concepteur'
+E:\C++\INF1015\tp3\main.cpp(231,26): error C2660: 'Developpeur::ajouterJeux': function does not take 1 arguments
+E:\C++\INF1015\tp3\Developpeur.hpp(13,7): message : see declaration of 'Developpeur::ajouterJeux'
+E:\C++\INF1015\tp3\main.cpp(232,24): error C2660: 'Developpeur::ajouterJeux': function does not take 1 arguments
+E:\C++\INF1015\tp3\Developpeur.hpp(13,7): message : see declaration of 'Developpeur::ajouterJeux'
+E:\C++\INF1015\tp3\main.cpp(233,24): error C2660: 'Developpeur::ajouterJeux': function does not take 1 arguments
+E:\C++\INF1015\tp3\Developpeur.hpp(13,7): message : see declaration of 'Developpeur::ajouterJeux'
+  Generating Code...
